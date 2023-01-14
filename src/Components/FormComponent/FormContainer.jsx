@@ -64,10 +64,15 @@ const StyledButton = styled("button")`
     display: 'block',
     background-color: '#99f',
   },
+  
 `;
 const ButtonStyle = styled(Button)`
   background-color: #3766e8;
   color: #ffffff;
+  &:hover{
+    color:#3766e8;
+    border:1px solid #3766e8;
+  }
 `;
 
 const ImgStyle = styled('img')`
